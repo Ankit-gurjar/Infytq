@@ -28,7 +28,7 @@ CONSTRAINT match_player_ck CHECK(Player1<>Player2)
 );
 
 #ex6
-ALTER TABLE Player ADD (MatchesPlayed INTEGER,MatchesWon INTEGER)
+ALTER TABLE Player ADD (MatchesPlayed NUMBER,MatchesWon NUMBER)
 
 #ex7
 ALTER TABLE Player DROP (ContactNo)
